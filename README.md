@@ -9,7 +9,7 @@ The present SPH Code reads three important input files including:
 
 Notes:
 
-	For simulation of additional test cases, please note that "data.plt" file should be created using a mesh generation software with the following format:
+For simulation of additional test cases, please note that "data.plt" file should be created using a mesh generation software with the following format:
 Variables= "Num" "PType" "X" "Y" "VX" "VY" "P" "sxx" "sxy" "syy" "m" "h" "rho" "GammaDot" "Vorticity" "Okubo_Weiss" 
 Zone
 
