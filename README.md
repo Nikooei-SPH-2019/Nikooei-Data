@@ -33,6 +33,7 @@ Where "Num" denotes the index of each SPH particle and starts from 0. "PType" is
 
 
 Note:
-A "Solver" folder should be created with a "boost" folder located within it. Please make sure that "boost" folder of the MTL4 solver (http://old.simunova.com/en/node/189) replaces the existing empty "boost" folder. 
+A folder named "Solver" inside the working directory should be created with a folder named "boost" inside it.
+ Please make sure that "boost" folder of the MTL4 solver (http://old.simunova.com/en/node/189) replaces the existing empty "boost" folder. 
 
 
