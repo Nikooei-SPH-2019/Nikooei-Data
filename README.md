@@ -8,6 +8,7 @@ The present SPH Code reads three important input files including:
 
 
 Notes:
+
 	For simulation of additional test cases, please note that "data.plt" file should be created using a mesh generation software with the following format:
 Variables= "Num" "PType" "X" "Y" "VX" "VY" "P" "sxx" "sxy" "syy" "m" "h" "rho" "GammaDot" "Vorticity" "Okubo_Weiss" 
 Zone
@@ -31,9 +32,7 @@ Where "Num" denotes the index of each SPH particle and starts from 0. "PType" is
 
 -	For adjustment of slip velocity of granular materials along the walls, change the "Ls" parameter in “projection.cpp” C++ source file.
 
-
-Note:
-A folder named "Solver" inside the working directory should be created with a folder named "boost" inside it.
+- A folder named "Solver" inside the working directory should be created with a folder named "boost" inside it.
  Please make sure that "boost" folder of the MTL4 solver (http://old.simunova.com/en/node/189) replaces the existing empty "boost" folder. 
 
 
