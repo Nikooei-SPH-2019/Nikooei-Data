@@ -1,0 +1,22 @@
+NumberofMaterials= 3
+
+type= 0
+rho= 1550
+k= 1.0
+cp= 1.0
+
+
+type= 11
+rho= 1550 
+k= 1.0
+cp= 1.0
+mu= 0.1
+
+type= 15
+rho= 1550 
+k= 1.0
+cp= 1.0
+mu= 0.1
+
+
+
