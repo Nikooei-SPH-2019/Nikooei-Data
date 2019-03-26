@@ -12,7 +12,6 @@ Notes:
 For simulation of additional test cases, please note that "data.plt" file should be created using a mesh generation software with the following format:
 Variables= "Num" "PType" "X" "Y" "VX" "VY" "P" "sxx" "sxy" "syy" "m" "h" "rho" "GammaDot" "Vorticity" "Okubo_Weiss" 
 Zone
-
 0	0	2.1e-01	5.22e-01	0	0	0	0	0	0	0	0	0	0	0	0
 
     ...
