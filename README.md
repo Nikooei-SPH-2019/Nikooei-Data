@@ -7,10 +7,15 @@ Notes:
 	For simulation of additional test cases, please note that "data.plt" file should be created using a mesh generation software with the following format:
 Variables= "Num" "PType" "X" "Y" "VX" "VY" "P" "sxx" "sxy" "syy" "m" "h" "rho" "GammaDot" "Vorticity" "Okubo_Weiss" 
 Zone
+
 0	0	2.1e-01	5.22e-01	0	0	0	0	0	0	0	0	0	0	0	0
+
     ...
+    
     ...
+    
     ... 
+    
 
 Where "Num" denotes the index of each SPH particle and starts from 0. "PType" is the type of each SPH particle (0= wall, 11= overlying fluid, and 15= bed material). "X" and "Y" denote the initial position of each SPH particle. "m" and "rho" are the mass and density of each SPH particle, respectively. "h" is the smoothing radius and equals to 2.6 times initial particle spacing. The other parameters are initially set to zero and after solving the problem, their values will be updated at different instances.
 -	Runout of the flow is written in “Runout.dat” file.
