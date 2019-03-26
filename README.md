@@ -31,3 +31,8 @@ Where "Num" denotes the index of each SPH particle and starts from 0. "PType" is
 
 -	For adjustment of slip velocity of granular materials along the walls, change the "Ls" parameter in “projection.cpp” C++ source file.
 
+
+Note:
+A "Solver" folder should be created, in which a "boost" folder is located. Please make sure that "boost" folder of the MTL4 solver (http://old.simunova.com/en/node/189) replaces the existing empty "boost" folder. 
+
+
